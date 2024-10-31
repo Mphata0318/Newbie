@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcf8f7;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #485ad0;
+}
+
+header .logo {
+    font-size: 30px;
+    color: #fffeed;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fffeed;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fffeed;
+    margin: 4px 0;
+}
+
+.hero {
+    background-color: #e4d9ff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #485ad0;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #333333;
+}
+
+.hero button {
+    background-color: #ffbfb7;
+    color: #333333;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fffeed;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #485ad0;
+}
+
+.about p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #fcf8f7;
+}
+
+.features .feature {
+    width: 30%;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 24px;
+    color: #485ad0;
+}
+
+.features p {
+    font-size: 16px;
+    color: #333333;
+}
+
+.testimonials {
+    padding: 60px 20px;
+    background-color: #e4d9ff;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-size: 20px;
+    color: #333333;
+}
+
+.testimonials cite {
+    font-size: 16px;
+    color: #485ad0;
+}
+
+.testimonial {
+    padding: 60px 20px;
+    background-color: #e4d9ff;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-size: 20px;
+    color: #333333;
+}
+
+.testimonial cite {
+    font-size: 16px;
+    color: #485ad0;
+}
+
+.contact {
+    padding: 60px 20px;
+    background-color: #fffeed;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact form label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333333;
+}
+
+.contact form button {
+    background-color: #485ad0;
+    color: #fffeed;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333333;
+    color: #fffeed;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fffeed;
+    text-decoration: none;
+}
+
+.form-message {
+    margin-top: 15px;
+    color: rgb(192, 46, 46);
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    header nav ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
