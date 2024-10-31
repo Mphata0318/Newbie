@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CreateMe</title>
+    <link rel="stylesheet" href="prac1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CreateMe✧</div>
+            <!--<img src="download (1).jpg" width="160" height="150">-->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <h1>Welcome to CreateMe</h1>
+        <p>We provide the best creativity in the industry</p>
+        <button id="getStartedBtn">Get Started</button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team offering top-notch solutions for your needs in creativity.</p>
+    </section>
+
+    <section class="features" id="services">
+        <h2>Our Features</h2>
+        <div class="feature">
+            <h3>Canva designs</h3>
+            <p>We make sure that the design you want, you will get it.</p>
+        </div>
+        <div class="feature">
+            <h3>Music taste</h3>
+            <p>We make sure that your taste in music matches your personality</p>
+        </div>
+        <div class="feature">
+            <h3>Aesthetic</h3>
+            <p>We will show you how to use Pinterest and <br>how to upload your own 
+                pins<br>as per your Aesthetic.</p>
+        </div>
+    </section>
+
+     <div class="feature">
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            <p>“This is the best service I've ever used!”</p>
+            <cite>- Satisfied Customer</cite>
+        </blockquote>
+    </section>
+     </div>
+     
+     <div class="featurer">
+        <section class="testimonial">
+            <h3>What Our Clients Say</h3>
+            <blockquote>
+                <p>"They have the best management and supper friendly</p>
+                <cite>- Happy Client</cite>
+            </blockquote>
+        </section>
+     </div>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <label for="file">Attach a file:</label>
+            <input type="file" id="file" name="file" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <button id="scrollToTopBtn" title="Go to top">Top</button>
+
+    <footer>
+        <p>&copy; 2024 Mphata Mabala. All rights reserved.</p>
+        <ul class="social">
+            <li><a href="https://web.facebook.com/mphatas.kaymeedree">Facebook</a></li>
+            <li><a href="https://x.com/mabala_mphata"></a>X</li>
+            <li><a href="https://www.linkedin.com/in/mphata-mabala-a2b612262/">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="prac1.js"></script>
+</body>
+</html>
